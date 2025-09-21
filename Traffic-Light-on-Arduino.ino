@@ -17,10 +17,10 @@ void setLights(bool r, bool y, bool g){
   digitalWrite(YELLOW, y ? LOW : HIGH);
   digitalWrite(GREEN, g ? LOW : HIGH);
 }
+
 void loop() {
   setLights(true,false,false);
   delay(4500);
-
 
   setLights(true,true,false);
   delay(500);
@@ -30,7 +30,5 @@ void loop() {
 
   setLights(false,true,false);
    delay(750);
-
-
 
 }
